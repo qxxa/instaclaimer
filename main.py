@@ -34,7 +34,7 @@ async def checker(session, proxy=None):
                         check_attempt += 1
                     elif title == "Instagram":  # Username is available
                         print("Username available")
-                        await turbo_basic(session)  # Attempt to claim the username
+                        await turbo_basic()  # Attempt to claim the username
                         return
                     elif "Login" in title:
                         print(f"Fail [{fails}]")
