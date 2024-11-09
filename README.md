@@ -1,6 +1,6 @@
 # instaclaimer - Instagram Username Autoclaimer
 
-Instagram Autoclaimer / Swapper / Turbo
+Instagram Autoclaimer / Swapper / Turbo <br>
 A Python script that claims a username by repeatedly checking until the username becomes available.
 
 ## Features
