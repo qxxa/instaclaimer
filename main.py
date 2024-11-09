@@ -4,6 +4,8 @@ from lxml import html
 from instagrapi import Client
 import json
 import random
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 data = []
 target = []
