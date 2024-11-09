@@ -1,4 +1,4 @@
-#instaclaimer - Instagram Username Autoclaimer
+# instaclaimer - Instagram Username Autoclaimer
 
 A Python script that claims a username by repeatedly checking until the username becomes available.
 
