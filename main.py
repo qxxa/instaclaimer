@@ -82,7 +82,7 @@ async def restore_session():
 async def turbo_basic():
     attempt = 0
     while attempt < num_attempts:
-        await restore_session()
+        # await restore_session()
         try:
             await asyncio.to_thread(cl.account_edit, username=target[0])
             print("Attempting to claim")
