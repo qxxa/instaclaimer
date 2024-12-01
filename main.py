@@ -102,7 +102,7 @@ async def turbo_basic():
 async def check_proxies(proxy):
     async with aiohttp.ClientSession() as session:
         try:
-            proxy_url = f"https://{proxy}"
+            proxy_url = proxy
             print(f"Testing HTTPS proxy: {proxy_url}")
 
             async with session.get("https://www.instagram.com/cristiano", proxy=proxy_url, timeout=5) as response:
@@ -125,9 +125,9 @@ async def check_proxies(proxy):
             print(f"Proxy {proxy} failed (other error): {e}")
 
 async def run_proxy_checker():
-    print("Checking proxy_list.txt for usable proxies...")
+    print("Checking proxies.txt for usable proxies...")
     tasks = []
-    with open("proxy_list.txt", "r") as f:
+    with open("proxies.txt", "r") as f:
         proxies = f.read().splitlines()
     for proxy in proxies:
         tasks.append(check_proxies(proxy))
