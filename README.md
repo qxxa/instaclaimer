@@ -18,7 +18,7 @@ A Python script that claims a username by repeatedly checking until it becomes a
 
 ## Note
 - If your account has 2FA, you will need to disable it to use the script <br> (support for login of accounts with 2FA will be added in the future).
-- You'll need to use high-quality HTTPS proxies. Otherwise, run the script without proxy. Free proxies won't work.
+- You'll need to use high-quality residential proxies. Otherwise, run the script without proxy. Free proxies won't work.
 - The recommended number of threads is around 2-5 without proxies. With proxies, you can set a higher number of threads.
 - This script does not have the 14 day bypass which is needed to swap usernames.
 
