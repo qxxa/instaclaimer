@@ -3,7 +3,7 @@
 Instagram Autoclaimer / Swapper / Turbo <br>
 A Python script that claims a username by repeatedly checking until it becomes available.
 
-![Example](https://github.com/user-attachments/assets/2792cd37-c423-40f9-863d-62bdee3959c7)
+![Instahunt](https://github.com/user-attachments/assets/e6bbed74-a417-479e-a19b-8cbd092646f3)
 
 ## Features
 - Supports asynchronous checks (similar to multi-threading but faster)
