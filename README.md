@@ -12,10 +12,8 @@ A Python script that claims a username by repeatedly checking until it becomes a
 
 ## Usage (windows)
 1. Run cmd as administrator
-2. git clone https://github.com/qxxa/instahunt.git
--cd instahunt
-OR
--Download the [ZIP File](https://github.com/qxxa/instaclaimer/archive/refs/heads/main.zip) and extract the ZIP
+2. git clone https://github.com/qxxa/instahunt.git OR Download the [ZIP File](https://github.com/qxxa/instaclaimer/archive/refs/heads/main.zip) and extract the ZIP
+3. cd instahunt
 4. Use the command `pip install -r requirements.txt` to install the dependencies.
 5. If you are using proxies, add them to the `proxies.txt` in the `protocol:username:password:ip:port` format.
 6. run `main.py` 
