@@ -8,7 +8,7 @@ A Python script that claims a username by repeatedly checking until it becomes a
 ## Features
 - Supports asynchronous checks (similar to multi-threading but faster)
 - Proxy support with a built-in proxy checker
-- Repeatedly checks a target username and claims when available <br> (In the future, checker for a list of target usernames will be added)
+- Repeatedly checks a target username and claims when available
 
 ## Usage
 1. Download the [ZIP File](https://github.com/qxxa/instaclaimer/archive/refs/heads/main.zip) and extract the ZIP
